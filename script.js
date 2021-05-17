@@ -4,7 +4,7 @@ function compute()
 
     if (principal<"0" || principal=="0"){
         alert("Enter a positive number")
-        principal.focus()
+        document.getElementById("principal").focus()
         return false
     }
 
